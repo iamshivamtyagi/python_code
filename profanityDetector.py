@@ -13,5 +13,7 @@ def profanityCheck(user_input) :
         print("PROFANITY ALERT !!! ")
     elif b'false' in html :
         print("NO CURSE WORD FOUND.")
+    else :
+        print("ERROR !!!")
    
 takeInput()
